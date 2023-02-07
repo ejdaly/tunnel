@@ -1,0 +1,22 @@
+{
+  "name": "Tunnel",
+  "version": "1.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "description": "SSH Tunnel Manager",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npm run build-portable",
+    "build-installer": "electron-builder build",
+    "build-portable": "electron-builder build -w portable"
+  },
+  "devDependencies": {
+    "electron": "^23.0.0",
+    "electron-builder": "^23.6.0"
+  },
+  "dependencies": {
+    "open": "^8.4.0",
+    "ssh-config": "^4.2.1"
+  }
+}
