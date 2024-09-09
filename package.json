@@ -1,8 +1,8 @@
 {
-  "name": "Tunnel",
-  "version": "1.0.1",
+  "name": "@ejdaly/tunnel",
+  "version": "1.0.2",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "MIT",
   "description": "SSH Tunnel Manager",
   "main": "main.js",
   "scripts": {
@@ -18,5 +18,8 @@
   "dependencies": {
     "open": "^8.4.0",
     "ssh-config": "^4.2.1"
+  },
+  "build": {
+    "productName": "Tunnel"
   }
 }
